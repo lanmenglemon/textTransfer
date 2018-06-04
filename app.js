@@ -38,8 +38,6 @@ var backFn = function() {
             }
         }, 1000);
     }
-
 };
-
 document.getElementById('fwd').addEventListener('click', fwdFn);
 document.getElementById('back').addEventListener('click', backFn);
